@@ -44,7 +44,7 @@ public class Controller implements Initializable {
       assert _menuBar != null : "_menuBar not connected! check FXML!";
       assert _mainWindow != null : "_mainWindow not connected! check FXML!";
       assert _choiceBox != null : "_choiceBox not connected! check FXML!";
-      
+
       // Flowpanes an Fenstergröße anpassen
          _flowPane1.prefWidthProperty().bind(_mainWindow.widthProperty());
          _flowPane2.prefWidthProperty().bind(_mainWindow.widthProperty());
